@@ -172,6 +172,9 @@ sa_migration.2 = {
 						name = sa_migration_attraction
 						months = long_modifier_time
 					}
+			        effect = {
+					enact_law = law_no_migration_controls
+					}
 				}
 			}
 		}

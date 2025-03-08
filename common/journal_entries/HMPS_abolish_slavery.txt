@@ -96,7 +96,7 @@ je_abolish_slavery = {
 		add = 60
 	}
 
-	progressbar = yes
+    is_decaying = yes
 
 	weight = 100
 	

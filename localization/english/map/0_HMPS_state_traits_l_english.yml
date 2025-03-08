@@ -23,3 +23,6 @@
  
  #modifiers
  state_trait_potato_blight:0 "Potato Blight"
+ 
+ #state traits
+ state_trait_black_soil:0 "Chernozem"

@@ -318,7 +318,6 @@ shell_gun = {
 
 percussion_cap = {
 	# Unlocks Munition Plants building
-	# Global Unlock for Rifles PM in Barracks
 	era = era_2
 	texture = "gfx/interface/icons/invention_icons/percussion_cap.dds"
 	category = military
@@ -332,28 +331,27 @@ percussion_cap = {
 	}
 }
 
-# HMPS change - tech is dead
-#rifling = {
-#	# Unlocks Rifles PM in Arms Industry
-#	era = era_2
-#	texture = "gfx/interface/icons/invention_icons/rifling.dds"
-#	category = military
-#	
-#	unlocking_technologies = {	
-#		percussion_cap
-#	}
-#	
-#	ai_weight = {
-#		value = 2 # Important tech in general
-#		
-#		if = {
-#			limit = {
-#				has_strategy = ai_strategy_unify_germany
-#			}
-#			add = 8
-#		}	
-#	}
-#}
+rifling = {
+	# Unlocks Rifles PM in Arms Industry
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/rifling.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		percussion_cap
+	}
+	
+	ai_weight = {
+		value = 2 # Important tech in general
+
+		if = {
+			limit = {
+				has_strategy = ai_strategy_unify_germany
+			}
+			add = 8
+		}		
+	}
+}
 
 general_staff = {
 	# Unlocks Skirmish Infantry PM in Barracks / Conscription Centers
@@ -533,6 +531,22 @@ military_statistics = {
 	}
 }
 
+repeaters = {
+	# Unlocks Repeaters PM in Arms Industry
+	# Global Unlock for Repeaters PM in Barracks
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/repeaters.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		rifling
+	}
+	
+	ai_weight = {
+		value = 1.5 # Important tech in general
+	}
+}
+
 breech_loading_artillery = {
 	# Unlocks Breech Loading Artillery Production PM in Arms Industries
 	# Unlocks Breech Loading Artillery PM in Barracks
@@ -542,7 +556,7 @@ breech_loading_artillery = {
 	category = military
 	
 	unlocking_technologies = {	
-		percussion_cap
+		rifling
 		shell_gun
 	}
 	
@@ -570,6 +584,7 @@ handcranked_machine_gun = {
 	
 	unlocking_technologies = {	
 		breech_loading_artillery
+		repeaters
 	}
 	
 	ai_weight = {
@@ -804,6 +819,22 @@ defense_in_depth = {
 	}
 }
 
+bolt_action_rifles = {
+	# Unlocks Bolt Action Rifles PM in Arms Industry
+	# Global Unlock for Bolt Action Rifles PM in Barracks
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/bolt_action_rifles.dds"
+	category = military
+	
+	unlocking_technologies = {	
+		repeaters
+	}
+	
+	ai_weight = {
+		value = 2 # important for everyone
+	}
+}
+
 automatic_machine_guns = {
 	# Unlocks Recoil Mechaniscm PM in Arms Factory
 	# Unlocks Machine Gunners PMs in Barracks and Conscription Centers
@@ -813,6 +844,7 @@ automatic_machine_guns = {
 	
 	unlocking_technologies = {	
 		handcranked_machine_gun
+		bolt_action_rifles
 	}
 	
 	ai_weight = {

@@ -1,0 +1,20 @@
+{
+  "name" : "Rage MP",
+  "picture" : "thumbnail.png",
+  "id" : "Rage",
+  "version" : "1",
+  "supported_game_version" : "1.8.6",
+  "short_description" : "",
+  "tags" : [
+		"Gameplay",
+		"Total Conversion"
+  ],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true,
+		"replace_paths" : [
+			"common/laws",
+			"events/agitators_events/luddite_law_events.txt"
+		]
+  }
+}

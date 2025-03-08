@@ -740,6 +740,7 @@ forced_market_opening = {
 	country_authority_mult = -0.6
 	interest_group_approval_add = -10
 	country_legitimacy_base_add = -25
+	is_decaying = yes
 }
 
 forced_slavery_ban = {
