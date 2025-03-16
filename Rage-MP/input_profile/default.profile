@@ -1,13 +1,13 @@
 input_context={
 	name="common"
 
-	#input_action = {
-	#	name = "pause"
-	#	text = "SETTING_INPUT_ACTION_PAUSE"
-	#	scancode = 44			# Space
-	#	mouse_button = MOUSE_X2	# Mouse 5 AKA forward
-	#}
-	#
+	input_action = {
+		name = "pause"
+		text = "SETTING_INPUT_ACTION_PAUSE"
+		scancode = 44			# Space
+		mouse_button = MOUSE_X2	# Mouse 5 AKA forward
+	}
+
 	#input_action = {
 	#	name = "increase_speed"
 	#	text = "SETTING_INPUT_ACTION_INCREASE_SPEED"
@@ -104,7 +104,7 @@ input_context={
 		text = "SETTING_INPUT_ACTION_LOCATION_FINDER"
 		scancode = 9	# F
 	}
-	
+
 	input_action = {
 		name = "open_politics"
 		text = "SETTING_INPUT_ACTION_OPEN_POLITICS"
@@ -182,7 +182,7 @@ input_context={
 		text = "SETTING_INPUT_ACTION_BACK"
 		mouse_button = MOUSE_X1	# mb4
 	}
-	
+
 	input_action = {
 		name = "open_outliner"
 		text = "SETTING_INPUT_ACTION_OPEN_OUTLINER"
