@@ -1,0 +1,7 @@
+# ignore all other mods
+/*
+# exclusion
+!.gitignore
+!README.md
+# target mod folder
+!Rage-MP
