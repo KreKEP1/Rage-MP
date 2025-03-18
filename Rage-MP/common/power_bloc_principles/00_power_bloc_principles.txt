@@ -615,12 +615,23 @@ principle_foreign_investment_1 = {
 	# Does not generate a tooltip, so a dummy modifier is required to show this effect
 	allows_foreign_investment_in_lower_rank = yes
 
+	leader_modifier = {
+		state_capitalists_investment_pool_efficency_mult = 0.1
+
+	}
+
+	non_leader_modifier = {
+		state_capitalists_investment_pool_efficency_mult = 0.05
+	}
+
 	member_modifier = {
 		# Modifiers from previous level(s)
 		country_nationalization_cost_non_members_mult = -0.5
 
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
+
+		country_commpany_throughput_bonus_add = 0.1
 	}
 
 	power_bloc_modifier = {
