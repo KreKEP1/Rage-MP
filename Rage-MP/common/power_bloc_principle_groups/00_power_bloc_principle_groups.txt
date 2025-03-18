@@ -9,14 +9,14 @@ principle_group_construction = {
 principle_group_internal_trade = {
 	primary_for_identity = identity_trade_league
 	unlocking_identity = identity_trade_league
-	
+
 	levels = {
 		principle_internal_trade_1
 	}
 }
 
 principle_group_market_unification = {
-	
+
 	levels = {
 		principle_market_unification_1
 	}
@@ -38,7 +38,7 @@ principle_group_advanced_research = {
 
 principle_group_defensive_cooperation = {
 	primary_for_identity = identity_military_treaty_organization
-	
+
 	levels = {
 		principle_defensive_cooperation_1
 	}
@@ -55,7 +55,7 @@ principle_group_aggressive_coordination = {
 
 principle_group_external_trade = {
 	primary_for_identity = identity_trade_league
-	
+
 	levels = {
 		principle_external_trade_1
 	}
@@ -99,7 +99,8 @@ principle_group_foreign_investment = {
 
 principle_group_creative_legislature = {
 	primary_for_identity = identity_ideological_union
-	
+	unlocking_identity = identity_ideological_union
+
 	levels = {
 		principle_creative_legislature_1
 	}
@@ -139,7 +140,6 @@ principle_group_sacred_civics = {
 
 principle_group_ideological_truth = {
 	primary_for_identity = identity_ideological_union
-	unlocking_identity = identity_ideological_union
 
 	levels = {
 		principle_ideological_truth_1
