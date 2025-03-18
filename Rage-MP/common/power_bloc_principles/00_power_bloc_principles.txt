@@ -170,12 +170,19 @@ principle_advanced_research_1 = {
 
 	leader_modifier = {
 		country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
+
+		country_tech_spread_mult = 0.05
+	}
+
+	non_leader_modifier = {
+		# education access for other members
+		state_education_access_add = 0.05
 	}
 
 	institution = institution_schools
 	institution_modifier = {
 		# School institution gives more tech spread
-		country_tech_spread_mult = 0.05
+		country_tech_spread_mult = 0.03
 	}
 
 	ai_weight = {
