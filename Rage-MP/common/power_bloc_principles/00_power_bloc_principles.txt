@@ -616,12 +616,12 @@ principle_foreign_investment_1 = {
 	allows_foreign_investment_in_lower_rank = yes
 
 	leader_modifier = {
-		state_capitalists_investment_pool_efficency_mult = 0.1
+		state_capitalists_investment_pool_efficiency_mult = 0.1
 
 	}
 
 	non_leader_modifier = {
-		state_capitalists_investment_pool_efficency_mult = 0.05
+		state_capitalists_investment_pool_efficiency_mult = 0.05
 	}
 
 	member_modifier = {
@@ -631,7 +631,7 @@ principle_foreign_investment_1 = {
 		# This modifier is just here to generate a tooltip. It doesn't actually do anything on its own
 		country_higher_leverage_from_economic_dependence_bool = yes
 
-		country_commpany_throughput_bonus_add = 0.1
+		country_company_throughput_bonus_add = 0.1
 	}
 
 	power_bloc_modifier = {
