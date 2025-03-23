@@ -1,62 +1,62 @@
 ﻿RHN = {
-	#states = {
-	#	STATE_HESSE
-	#	STATE_SAXONY
-	#	STATE_SCHLESWIG_HOLSTEIN
-	#	STATE_ANHALT
-	#	STATE_FRANCONIA
-	#	STATE_BAVARIA
-	#	STATE_BRUNSWICK
-	#	STATE_HANNOVER
-	#	STATE_BADEN
-	#	STATE_WURTTEMBERG
-	#	STATE_RUHR
-	#	STATE_WESTPHALIA
-	#	STATE_ELBE
-	#	STATE_MECKLENBURG
-	#}
-	#
-	#required_states_fraction = 0.75
-	
+	states = {
+		STATE_HESSE
+		STATE_SAXONY
+		STATE_SCHLESWIG_HOLSTEIN
+		STATE_ANHALT
+		STATE_FRANCONIA
+		STATE_BAVARIA
+		STATE_BRUNSWICK
+		STATE_HANNOVER
+		STATE_BADEN
+		STATE_WURTTEMBERG
+		STATE_RUHR
+		STATE_WESTPHALIA
+		STATE_ELBE
+		STATE_MECKLENBURG
+	}
+
+	required_states_fraction = 0.75
+
 	use_culture_states = no
-	
+
 	ai_will_do = { always = no }
-	
+
 	possible = {
-		#has_technology_researched = nationalism
-		#NOR = {
-		#	c:PRU ?= this
-		#	c:AUS ?= this
-		#	c:NGF ?= this
-		#	c:SGF ?= this
-		#}
-		
+		has_technology_researched = nationalism
+		NOR = {
+			c:PRU ?= this
+			c:AUS ?= this
+			c:NGF ?= this
+			c:SGF ?= this
+		}
+
 		always = no
 	}
 }
 
 HRE = {
 	use_culture_states = no
-	
+
 	ai_will_do = { always = no }
-	
+
 	possible = {
 		#NOT = { has_game_rule = plausible_formable_nations }
 		#country_is_in_europe = yes
-		
+
 		always = no
 	}
 }
 
 KUK = {
 	use_culture_states = no
-	
+
 	ai_will_do = { always = no }
 
 	possible = {
 		#has_technology_researched = pan-nationalism
 		#has_law = law_type:law_multicultural
-		
+
 		always = no
 	}
 }
@@ -98,9 +98,9 @@ PLT = {
 	}
 
 	required_states_fraction = 0.85
-	
+
 	ai_will_do = { always = yes }
-	
+
 	possible = {
 		has_technology_researched = nationalism
 		has_law = law_type:law_slavery_banned
@@ -124,13 +124,13 @@ IDO = {
 		STATE_BURMA
 		STATE_PEGU
 	}
-	
+
 	#use_culture_states = yes
 
 	required_states_fraction = 0.6
-	
+
 	ai_will_do = { always = yes }
-	
+
 	possible = {
 		has_technology_researched = pan-nationalism
 	}

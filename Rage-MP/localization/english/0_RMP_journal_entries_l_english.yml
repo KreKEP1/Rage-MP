@@ -1,14 +1,14 @@
 ﻿l_english:
- 
+
  HMPS_LONG_DELIMITER: 0 "     @divider_start!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_mid!@divider_end!"
- 
+
  je_martial_law_pl:0 "Martial Law In The Kingdom Of Poland"
  je_martial_law_pl_reason:0 "Martial law was introduced in the Kingdom of Poland by a decree of Tsar Nicholas I Romanov on April 11/23, 1833, announced on June 26, 1833. It's implementation however remains up to the appointed viceroy - Paskievich. If he should fail to stomp out resistance, another uprising may break out against russian rule."
  je_january_uprising:0 "January Uprising"
  je_january_uprising_reason:0 "We have failed to stomp out resistance, and it's only a matter of time before a nation-wide uprising breaks out."
  je_carlist_war_SPA:0 "Defeat The Carlists"
  je_carlist_war_SPA_reason:0 "The Traditionalist scum have gathered behind the illegitimate king Carlos. If we do not defeat them, they will surely bring ruin to our nation!"
- je_carlist_war_SPC:0 "Defeat The Cristinos" 
+ je_carlist_war_SPC:0 "Defeat The Cristinos"
  je_carlist_war_SPC_reason:0 "The Liberal and Progressive scum have gathered behind the illegitimate child-queen Isabella. If we do not defeat them, they will surely bring ruin to our nation!"
  je_embrace_ottomanism:0 "Embrace Ottomanism"
  je_embrace_ottomanism_reason:0 "No matter our culture, religion, ethnicity etc. - we are all ottomen and we deserve to be represented fairly in a federation of equals."
@@ -53,7 +53,7 @@
  je_second_great_sejm_reason:0 "As we are independent once more, it is essential that we decide the nature of our government and choose a monarch for our country."
  je_second_great_sejm_goal:0 "The Sejm has decided who will be the Monarch"
  je_second_great_sejm_status:0 "The #yellow #BOLD Landowners#!#! will provide flat #white #BOLD progress#!#! per month towards agreeing on the monarch.\nThe #yellow #BOLD Intelligentisia#!#! will sabotage the debate and provide flat #white #BOLD regress#!#! per month."
- je_freedom_ours_and_yours:0 "For Our Freedom And Yours" 
+ je_freedom_ours_and_yours:0 "For Our Freedom And Yours"
  je_freedom_ours_and_yours_reason:0 "What was teaken - must be returned. Poland's lawfull borders are those from before the partitions and we'll strive to restore freedom to peoples from the Commonwealth now living under the partitioners' yoke."
  formed_plc:0 "Formed The Polish-Lithuanian Commonwealth"
  je_gutter_crown:0 "Crown in the Gutter"
@@ -68,7 +68,7 @@
  je_wine_blight_reason:0 "A new species of aphid has begun destroying our vineyards, grealy decreasing productivity and ruining countless businesses. With our current scientific understanding, there is little we can do but wait for this blight to exhaust itself. \n$HMPS_LONG_DELIMITER$\nIf we research #BOLD Improved Fertilizer#!, we will find ways to exhaust the blight slightly sooner. If another country finds a solution before we do, then progress will become rapid."
  je_wine_blight_status:0 "Over 40% of French grape vines and vineyards were devastated over a 15-year period from the late 1850s to the mid-1870s. The French economy was badly hit by the blight: many businesses were lost, and wages in the wine industry were cut to less than half. The blight rapidly spread to other wine producing countries throughout Europe."
  je_wine_blight_goal:0 "A solution is discovered."
- 
+
  je_napoleons_legacy:0 "The Political Question"
  je_napoleons_legacy_status:0 "A full generation has passed since the Revolutionary Wars laid waste to Europe. As time marches on, the radical ideas that once assaulted Europe's ancien regimes quietly reorganize. At some point, their offensive may yet renew.
  je_napoleons_legacy_reason:0 "Every European [concept_major_power] whose [concept_capital_state] is north of the Danube and west of the Vistula will receive this journal entry. However, the condititions for its progression are #bold global#!. This means that if any country with this [concept_journal_entry] or any [concept_subject] of a country with this Journal Entry progresses the below conditions, every Journal Entry will progress.\n$HMPS_LONG_DELIMITER$\nThe below actions will progress the progress bar globally:\n• Enacting [GetLawType('law_republic').GetName] (#red 10#!)\n• Democratizing [GetLawType('law_landed_voting').GetGroup.GetName]  #tooltippable;tooltip:[Country.GetTooltipTag],je_napoleons_legacy_advance_voting laws#!\n• Enacting [GetLawType('law_unicameralism').GetName] (#red 3#!)\n• Changing [GetLawType('law_parliamentary_system').GetGroup.GetName]  #tooltippable;tooltip:[Country.GetTooltipTag],je_napoleons_legacy_advance_parliament laws#!\n• Secularizing [GetLawType('law_freedom_of_conscience').GetGroup.GetName] #tooltippable;tooltip:[Country.GetTooltipTag],je_napoleons_legacy_advance_church laws #!\n• Passing [GetLawType('law_right_of_assembly').GetName] (#red 4#!) \n• Italy or Germany forming (#red 5#!)\n• The #variable Potato Blight#! ending (#red 10#!)\n• Losing a [concept_war] (#red 5#!)\n• Having [concept_turmoil] in your [concept_capital_state] (#red 3#!)\n• Having a [concept_revolution] at home or in a [concept_subject] (#red 8#!)\nThe bottom 3 actions will only progress the progress bar once.\n$HMPS_LONG_DELIMITER$\nForcing a [concept_regime_change] on a [concept_power_bloc_member] will reduce the progress bar globally (#green 4#!)"
@@ -81,19 +81,19 @@
  je_napoleons_legacy_t2:0 "The People's Springtime has not yet begun."
  je_springtime_of_the_peoples_t1:0 "The crisis will continue for at least a year"
  je_springtime_of_the_peoples.t2:0 "The Springtime of the Peoples can only occur once."
- 
+
  je_hungarian_revolt:0 "Hungarian Revolt"
  je_hungarian_revolt_status:0 "A growing movement influenced by French Jacobinism seeks political and social changes despite resistance from conservative forces. Prominent leaders advocate for industrialization, broader democracy, and the abolition of aristocratic privileges."
  je_hungarian_revolt_reason:0 "Unless democratic reforms are enacted before the #variable Springtime of Nations#! begins, Jacobin groups will install a republic in our nation. This will automatically cause a revolt against our [concept_overlord]."
  je_hungarian_revolt.t1:0 "[SCOPE.GetRootScope.GetCountry.GetOverlord.GetName] must not have failed #variable The Political Question#! [concept_journal_entry]
  je_hungarian_revolt.t2:0 "Our overlord purposefully triggers the revolt."
- 
+
  je_hungarian_revolt_austria:0 "The Matter of Hungary"
  je_hungarian_revolt_austria_status:0 "A growing movement in Hungary, influenced by French Jacobinism, seeks political and social changes despite resistance from conservative forces. Prominent leaders advocate for industrialization, broader democracy, and the abolition of aristocratic privileges."
  je_hungarian_revolt_austria_reason:0 "Unless democratic reforms are enacted before the #variable Springtime of Nations#! begins, Jacobin groups will install a republic in our [concept_subject]. This will automatically cause a revolt against our [concept_overlord]."
  je_hungarian_revolt_austria.t1:0 "[SCOPE.GetRootScope.GetCountry.GetName] must not have failed #variable The Political Question#! [concept_journal_entry]
  je_hungarian_revolt_austria.t2:0 "[SCOPE.GetRootScope.GetCountry.GetName] purposefully triggers the revolt."
- 
+
  je_dual_monarchy:0 "The Dual Monarchy"
  je_dual_monarchy_status:0 "Following the Hungarian Revolution, our relationship with Hungary has been reformed. However, this situation is not sustainable forever."
  je_dual_monarchy_reason:0 "Before we can answer the matter with Hungary, the German Question must be answered."
@@ -102,14 +102,14 @@
  je_dual_monarchy.t3:0 "Unify Germany"
  je_dual_monarchy.t4:0 "The Political Question has been answered"
  je_dual_monarchy.t5:0 "Has abandoned Germany"
- 
+
  #Potato Blight
  je_potato_famine:0 "The Hungry Forties"
  je_potato_famine_status:0 "As the blight ravages our land, a Political Crisis sprouts. We must stop it before it matures. There is no way to know how long this blight will last."
  je_potato_famine_reason:0 "#white This blight has sprouted a Political Crisis in our country that will grow as the crisis developes#!.\nOur [concept_sol] at the beginning of this crisis was #white #bold [ROOT.Var('original_sol').GetValue]#!#!. \nEach month, the #White Political Crisis#! will grow by #bold 0.1#! for every #bold 1#! [concept_sol] we have been unable to regain. \nThere are various other means to #tooltippable;tooltip:[Country.GetTooltipTag],je_potato_famine_advance advance#! or #tooltippable;tooltip:[Country.GetTooltipTag],je_potato_famine_retreat retreat#! the #White Political Crisis#!.\nFailure will occur if the #White Political Crisis#! cannot be controlled before the blight ends, but we will win if we can hold out.\nIf our #White Political Crisis#! grows past #bold 2.5#!, then its effects will linger after the blight disappears even if we succeed"
  je_potato_famine_advance:0 "The following conditions will #bold advance#! the #bold Progress Bar#! each month:\n• Grain being above 50% [concept_base_price] (#red 0.1#!) \n• Import [concept_tariffs] on grain (#red 0.1#!)\n• Having 25% or more [concept_radical] in your [concept_capital_state] (#red 0.2#!) \n• Using the Reduce Welfare button (#red 0.5#!) \n• A [concept_revolution] ocurring in a European [concept_great_power] (#red 2.5#!)"
  je_potato_famine_retreat:0 "The following conditions will #bold deplete#! the #bold Progress Bar#! each month:\n• Grain being below 0% [concept_base_price] (#green 0.1#!) \n• Export [concept_tariffs] on grain (#green 0.1#!)\n• Institutional [GetLawType('law_serfdom').GetName] (#green 0.1#!)\n• Using the Increase Welfare button (#green 0.25#!)\n• Using the Suppressing Unrest button (#green 2.0#!)\n• Increasing [concept_sol] above pre-crisis levels (#green scaling#!)"
- je_potato_famine_goal:0 "The #White Political Crisis #! peaks" 
+ je_potato_famine_goal:0 "The #White Political Crisis #! peaks"
  increase_welfare_button:0 "Increase Welfare Payments"
  increase_welfare_desc:0 "This will #bold increase#! [concept_welfare_payments] that are sent to [concept_incorporated_state]"
  increase_welfare.t0:0 "This will #bold reduce#! the #White Political Crisis#! by #bold 0.25#!"
@@ -135,7 +135,7 @@
  fpf_timer:0 "At least 30 days must pass"
  welfare_pb_over:0 "The Potato Blight must not be spreading."
  welfare_pb_not_change:0 "The Potato Blight must not be spreading or retreating."
- 
+
  je_railroad_bubble:0 "Railroad Bubble"
  je_railroad_bubble_status:0 "The rapid growth of railroads has inspired a value bubble. Over the course of the 19th century, railroads proved to be one of the most exciting investments. This led to many instances of speculation, overinvestment, and value implosion, destroying many fortunes. This can be good or bad. With have few radicals and low national debt, this can be a great free spending spree!"
  je_railroad_bubble_reason:0 "#bold This bubble will grow to extent determined by your actions. Every month, the state and railroad modifier will be mulitplied by the bubble size.#!\n$HMPS_LONG_DELIMITER$\nThe progress bar above indicates the size of the bubble. It is affected by the following:\nThe bubble size will #white increase #!at a base amount of #red one #!per month. \nSubsidizing railroads will #white increase #!the bubble size by #red one#!. \nEvery new railroad built will #white increase #!the size of the bubble by #red one#!."
@@ -158,6 +158,8 @@
  liberals_fail_tt:0 "The Liberals fail again!"
  je_gutter_crown.t1:0 "The #variable German National Identity#! [concept_journal_entry] completes"
  je_gutter_crown.t2:0 "The Springtime of the Peoples [concept_journal_entry] has been avoided"
+ # all NG is in CU with player
+ je_north_german_is_in_one_market_desc: "All North German must be in custom union with [GetPlayer.GetName]"
  je_german_unification_idea.t1:0 "The Crown in the Gutter [concept_journal_entry] has been completed"
  je_shortform_building_explosives_industry_tooltip:0 "Building is $building_explosives_industry$"
  je_prussian_germany:0 "The Integration of the South Germans"
