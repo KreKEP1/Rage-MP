@@ -3,7 +3,7 @@
   "picture" : "thumbnail.png",
   "id" : "Rage",
   "version" : "1",
-  "supported_game_version" : "1.8.6",
+  "supported_game_version" : "",
   "short_description" : "",
   "tags" : [
 		"Gameplay",
