@@ -1,42 +1,41 @@
 ﻿GER = {
 	use_culture_states = yes
-	
+
 	is_major_formation = yes
-	
+
 	unification_play = dp_unify_germany
 	leadership_play = dp_leadership_germany
 
 	required_states_fraction = 0.75
-	
+
 	ai_will_do = { has_technology_researched = nationalism }
 
 	possible = {
-		NOT = { country_has_primary_culture = cu:hungarian }
 		OR = {
 			has_technology_researched = political_agitation
 			custom_tooltip = {
-				text = je_german_unification_idea_trigger_desc
-				has_variable = je_german_unification_idea
+				text = je_gutter_crown.t1
+				has_variable = gutter_crown_var
 			}
 		}
 		custom_tooltip = {
 			text = je_german_unification_idea_trigger_desc.t1
 			NOT = { has_variable = abandoned_germany }
 		}
-		#custom_tooltip = {
-		#	text = no_confederation_of_the_rhine_tt
-		#	NOT = {
-		#		exists = c:RHN
-		#	}
-		#}
+		custom_tooltip = {
+			text = no_confederation_of_the_rhine_tt
+			NOT = {
+				exists = c:RHN
+			}
+		}
 	}
 }
 
 ITA = {
 	use_culture_states = yes
-	
+
 	is_major_formation = yes
-	
+
 	unification_play = dp_unify_italy
 	leadership_play = dp_leadership_italy
 
@@ -53,10 +52,10 @@ ITA = {
 			filter = {
 				OR = {
 					country_has_primary_culture = cu:north_italian
-					country_has_primary_culture = cu:south_italian				
+					country_has_primary_culture = cu:south_italian
 				}
 			}
-			has_technology_researched = nationalism	
+			has_technology_researched = nationalism
 			percent >= 0.33
 		}
 	}
@@ -64,14 +63,14 @@ ITA = {
 
 SCA = {
 	use_culture_states = yes
-	
+
 	is_major_formation = yes
-	
+
 	unification_play = dp_unify_scandinavia
 	leadership_play = dp_leadership_scandinavia
 
 	required_states_fraction = 0.50
-	
+
 	ai_will_do = { always = yes }
 
 	possible = {
@@ -81,7 +80,7 @@ SCA = {
 			country_has_primary_culture = cu:norwegian
 			country_has_primary_culture = cu:icelandic
 			country_has_primary_culture = cu:finnish
-		}	
+		}
 		any_country = {
 			OR = {
 				country_has_primary_culture = cu:swedish
@@ -89,7 +88,7 @@ SCA = {
 				country_has_primary_culture = cu:norwegian
 				country_has_primary_culture = cu:icelandic
 				country_has_primary_culture = cu:finnish
-			}		
+			}
 			has_technology_researched = nationalism
 		}
 	}
@@ -97,14 +96,14 @@ SCA = {
 
 FND = {
 	use_culture_states = yes
-	
+
 	is_major_formation = yes
-	
+
 	unification_play = dp_unify_andes
 	leadership_play = dp_leadership_andes
 
 	required_states_fraction = 0.8
-	
+
 	ai_will_do = { always = yes }
 
 	possible = {
@@ -131,7 +130,7 @@ FND = {
 				exists = cu:chilean
 				country_has_primary_culture = cu:chilean
 			}
-		}	
+		}
 		has_journal_entry = je_andean_federation
 		any_country = {
 			OR = {
@@ -157,8 +156,8 @@ FND = {
 					exists = cu:chilean
 					country_has_primary_culture = cu:chilean
 				}
-			}	
-			has_technology_researched = pan-nationalism	
+			}
+			has_technology_researched = pan-nationalism
 		}
 	}
 }
@@ -186,7 +185,7 @@ ARA = {
 		STATE_UPPER_EGYPT
 	}
 
-	required_states_fraction = 0.75	
+	required_states_fraction = 0.75
 
 	ai_will_do = { always = yes }
 
