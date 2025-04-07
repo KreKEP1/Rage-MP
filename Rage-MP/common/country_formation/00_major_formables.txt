@@ -11,12 +11,11 @@
 	ai_will_do = { has_technology_researched = nationalism }
 
 	possible = {
-		NOT = { country_has_primary_culture = cu:hungarian }
 		OR = {
 			has_technology_researched = political_agitation
 			custom_tooltip = {
-				text = je_german_unification_idea_trigger_desc
-				has_variable = je_german_unification_idea
+				text = je_gutter_crown.t1
+				has_variable = gutter_crown_var
 			}
 		}
 		custom_tooltip = {

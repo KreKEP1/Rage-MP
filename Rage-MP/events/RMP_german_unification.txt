@@ -137,6 +137,9 @@ german_unification.1 = {
 			}
 			change_tag = SGF
 		}
+		add_journal_entry = {
+			type = je_german_unification
+		}
 	}
 	option = {
 		name = german_unification.1.b
@@ -169,6 +172,9 @@ german_unification.1 = {
 				}
 			}
 			change_tag = SGF
+		}
+		add_journal_entry = {
+			type = je_german_unification
 		}
 	}
 }
