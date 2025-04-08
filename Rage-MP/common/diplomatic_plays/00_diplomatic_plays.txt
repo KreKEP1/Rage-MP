@@ -847,7 +847,8 @@ dp_unify_germany = {
 		has_technology_researched = pan-nationalism
 		OR = {
 			has_technology_researched = political_agitation
-			any_country = {
+			custom_tooltip = {
+				text = je_gutter_crown.t1
 				has_variable = gutter_crown_var
 			}
 		}

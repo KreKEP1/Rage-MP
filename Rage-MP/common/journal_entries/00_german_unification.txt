@@ -275,61 +275,19 @@ je_north_german_unification = {
 			has_global_variable = schleswig_holstein_question_solved
 			text = je_schleswig_holstein_question_solved_trigger_desc
 		}
-		hidden_trigger = {
-			has_variable = je_unification_progress
-		}
 		has_technology_researched = nationalism
-		is_unification_candidate = GER
-		OR = {
+		any_country = {
+			filter = {
+				country_has_primary_culture = cu:north_german
+				NOT = { this = c:LUX }
+			}
+			is_in_customs_union_with = root
+			percent = 1
 			custom_tooltip = {
-				text = je_german_unification_sole_candidate_trigger_desc
-				NOT = {
-					any_country = {
-						NOT = { this = root }
-						is_unification_candidate = GER
-					}
-				}
-			}
-			OR = {
-				any_country = {
-					filter = {
-						country_has_primary_culture = cu:north_german
-						NOT = { this = c:LUX }
-					}
-					is_in_customs_union_with = root
-					percent = 1
-					custom_tooltip = {
-						text = je_north_german_is_in_one_market_desc
-					}
-				}
-			}
-			any_state = {
-				state_region = s:STATE_SILESIA
-				NOT = {
-					OR = {
-						owner = {
-							this = ROOT
-						}
-						owner = {
-							is_subject_of = ROOT
-						}
-					}
-				}
-			}
-			any_state = {
-				state_region = s:STATE_NORTH_RHINE
-				NOT = {
-					OR = {
-						owner = {
-							this = ROOT
-						}
-						owner = {
-							is_subject_of = ROOT
-						}
-					}
-				}
+				text = je_north_german_is_in_one_market_desc
 			}
 		}
+		is_power_bloc_leader = yes
 	}
 
 	on_monthly_pulse = {
