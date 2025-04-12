@@ -1242,8 +1242,4 @@ ideology_anti_migration = {
 	lawgroup_citizenship = {
 		law_multicultural = disapprove	
 	}
-	
-	lawgroup_migration = {
-		law_migration_controls = approve
-	}
 }
